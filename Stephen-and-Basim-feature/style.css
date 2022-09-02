@@ -1,0 +1,37 @@
+body{ 
+    background-color: lightblue; position: relative; text-align: center; font-family: sans-serif;
+ } 
+input{ 
+    font-size: 16px; width: 200px; border-radius:30px;
+ } 
+    
+label{
+     color: white; 
+    } 
+#title{ 
+    text-align: center; 
+}
+input:required { 
+    color: darkblue; 
+} 
+#description{ }
+#survey-form{
+    background-color: darkblue; border: 1px solid; border-radius: 1px; 
+} 
+#name{
+     border-radius:30px;
+     }
+ #email{
+    border-radius:30px; 
+}
+#number{ 
+    font-color: white; type:number;
+ } 
+ #name-label{ } 
+ #email-label{ }
+ #number-label{ } 
+ #dropdown { }
+ 
+ #submit {
+     background-color: green; 
+    } 

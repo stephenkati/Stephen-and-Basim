@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <!-- title -->
+  <link rel="stylesheet" href="styles.css">
+
+  
+ <style rel="stylesheet" type="text/css" media="screen"> input#state { width: 2em; } input#zip { width: 5em; } input#card_number { width: 16em; } input#expiration { width: 4em; } input[type=radio], input[type=submit], input[type=checkbox] { width: auto; } </style> 
+
+
+</head>
+  <body>
+     <h1 id="title">
+  Coding Survey form
+  </h1>
+
+<p id="description">
+ Coding practise on various programming languages. 
+</p>
+
+<form id="survey-form">
+    <label for="text" id="name-label">Name</label><br>
+    <input type="text" id="name" value="Name"  placeholder="name" required /><br>
+
+    <label for="email" id="email-label">Email</label><br>
+    <input type="email" id="email"  placeholder="email" value="Email" required /><br>
+
+    <label for="number" id="number-label" >Age</label><br>
+    <input type="number" id="number" reqiured placeholder="number" min="1" max="15"/><br>
+
+  <select id="dropdown">
+    <option>item 1</option>
+    <option>item 2</option>
+ </select><br>
+<fieldset id="radio-group">
+
+  <input type="radio"name="group1" value="Html"/>Html
+  <input type="radio"name="group1" value="Css"/>Css
+  <input type="radio"name="group1" value="Php"/>Php
+</fieldset>
+  <input type="checkbox" name="choices" value="home"/> Home
+  <input type="checkbox" name="choice2" value="school"/> School 
+
+  <textarea></textarea>
+  <button type="submit" id="submit">Submit</button>
+
+</form>
+
+
+
+
+  </body>
+  </html>
